@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn {
+  display: block;
+  max-width: 185px;
+  margin: 8px 0;
+  background: linear-gradient(255deg, rgb(68 120 116) 0%, rgb(23, 170, 170) 100%);
+  border-radius: 12px;
+  color: #fdfdfd;
+  font-weight: 300;
+  padding: 10px 18px;
+  text-decoration: none;
+  transition: all .3s ease;
+  &:hover{
+    transform: scale(1.1);
+    color: #fff;
+  }
+}
+.btnSm{
+  padding: 6px!important;
+}
+.accent{
+  color: rgb(23, 170, 170);
+  font-weight: 700;
+}
+a{
+  transition: all .3s ease;
+  &:hover{
+    color: rgb(23, 170, 170);
+  }
+}
+input, button{
+  border: none;
+  outline: none;
+}

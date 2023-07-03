@@ -1,0 +1,38 @@
+header{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    .navigation{
+        display: flex;
+        align-items: center;
+        a{
+            font-size: 15px;
+            font-weight: 300;
+            padding: 10px;
+        }
+        
+        .btnLink{
+            margin-right: 9px;
+        }
+    }
+    
+    a{
+        color: #fff;
+        font-weight: 700;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    .languages{
+        a{
+            font-size: 16px;
+            font-weight: 600;
+            padding: 4px;
+        }
+    }
+}

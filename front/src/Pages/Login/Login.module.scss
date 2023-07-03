@@ -1,0 +1,30 @@
+.loginWrapp{
+    max-width: 450px;
+    width: 100%;
+    margin: 100px auto;
+    background-color: #2f2f2f;
+    padding: 12px 24px;
+    border-radius: 14px;
+    text-align: center;
+    .inputBlock{
+        padding: 14px 0;
+        width: 100%;
+        text-align: left;
+        span{
+            display: block;
+            width: 100%;
+            padding-bottom: 12px;
+        }
+        input{
+            background: linear-gradient(255deg, rgb(68 120 116) 0%, rgb(23, 170, 170) 100%);
+            padding: 12px;
+            border-radius: 10px;
+            width: 100%;
+
+        }
+    }
+    button{
+        margin: 12px auto;
+        cursor: pointer;
+    }
+}
